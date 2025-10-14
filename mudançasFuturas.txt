@@ -1,0 +1,14 @@
+- Criar função pra escudo - 14/10/2025
+- Aprimorar Sistema de armaduras, botas, e etc,
+- Pensar se vale a pena, colocar um sistema onde, quanto mais armaduras pesadas você pegue, mais lento você fica e menor
+é seu ataque.
+- Armas que diminuem armaduras
+- Colocar sistema parecido com dota2 
+
+Damage multiplier = 1 − (0.06 × Armor) / (1 + 0.06 × Armor) https://www.hotspawn.com/dota2/guide/how-armor-works-in-dota-2?utm_source=chatgpt.com
+
+
+Conceitos de Resistência
+
+- Resistência Magica
+- Resistência Fisica

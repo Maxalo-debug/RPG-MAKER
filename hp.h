@@ -1,5 +1,6 @@
 #pragma once
 #include "facilities.h"
+#include <stdint.h>
 
 typedef struct{
     hptype shieldHP;
@@ -12,3 +13,4 @@ typedef struct{
 bool setMaxHP(hptype, Hp*);
 void takeDamage(hptype, Hp*);
 void heal();
+void shield();

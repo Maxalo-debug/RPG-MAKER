@@ -16,6 +16,8 @@ bool setMaxHP(hptype new_max_hp, Hp* characther_hp){
         characther_hp->currentHP = characther_hp->maxHP;
 }
 
+void shield();
+
 
 void takeDamage(hptype damage_received, Hp* person){
     if(damage_received > person->currentHP) {
@@ -33,9 +35,7 @@ void heal(hptype healing, Hp* person){
         person->currentHP = person->maxHP;
         return;
     }
-
     person->currentHP += healing;
-
 
 }
 
