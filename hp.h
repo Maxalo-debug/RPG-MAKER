@@ -1,6 +1,9 @@
 #pragma once
-#include "facilities.h"
 #include <stdint.h>
+#include <stdbool.h>
+
+typedef unsigned short hptype;
+typedef uint8_t stattype;
 
 typedef struct{
     hptype shieldHP;
@@ -11,6 +14,6 @@ typedef struct{
 
 
 bool setMaxHP(hptype, Hp*);
-void takeDamage(hptype, Hp*);
-void heal();
-void shield();
+void takeDamage(hptype, int8_t, Hp*);
+void heal(hptype, Hp*);
+int damage_reduced_after_armor(int8_t armor, hptype damage_received);
